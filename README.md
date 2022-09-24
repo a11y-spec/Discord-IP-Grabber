@@ -2,8 +2,10 @@
 Only Windows
 Add your Base64 Encoded webhook in line 42
 
-To Install Dependencies : ```go mod tidy```\n
+To Install Dependencies : ```go mod tidy```
+
 To Run : ```go run main.go```
+
 To Build : ```go build main.go```
 
 Procedure:
