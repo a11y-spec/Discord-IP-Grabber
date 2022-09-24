@@ -10,4 +10,5 @@ Procedure:
 * Download a file can be a backdoor, ransomware etc...
 * Delete Itself
 
-**Thinking about UAC Bypass and Keyboard & Mouse Disabler until the executeable is fully executed.
+Optional:
+Thinking about UAC Bypass and Keyboard & Mouse Disabler until the executeable is fully executed.
