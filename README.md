@@ -2,13 +2,13 @@
 Only Windows
 Add your Base64 Encoded webhook in line 42
 
-To Install Dependencies : ```go mod tidy```
+To Install Dependencies : ```go mod tidy```\n
 To Run : ```go run main.go```
 To Build : ```go build main.go```
 
 Procedure:
 * Get Machine Name & IP Address 
-* Send it to Wbhook (Base64 Encoded)
+* Send it to Webhook (Base64 Encoded)
 * Download a file can be a backdoor, ransomware etc...
 * Delete Itself
 
