@@ -9,4 +9,4 @@ Procedure:
 * Send it to Wbhook (Base64 Encoded)
 * Download a file can be a backdoor, ransomware etc...
 * Delete Itself
-*** Thinking about UAC Bypass and Keyboard & Mouse Disabler until the executeable is fully executed.
+||| Thinking about UAC Bypass and Keyboard & Mouse Disabler until the executeable is fully executed.
